@@ -1,11 +1,13 @@
 # NMAP
+- [NMAP Command Cheat Sheet](https://www.golinuxcloud.com/nmap-command-in-linux/)
+
 ## Domain IP Address Lookup
 | Command | Description |
 |---|---|
 |`nslookup cloudflare.com`|Lookup domain IP address|
 ||![image](src/nslookup.png)|
 
-## NMAP (Scan Techniques)
+## Scan Techniques
 | Command | Description |
 |---|---|
 |`nmap 192.168.1.1 -sT`|TCP connect port scan (Default without root privilege)
@@ -13,7 +15,7 @@
 |`nmap 192.168.1.1 -sU`|UDP port scan|
 ||![image](src/udpscan.png)|
 
-## NMAP Host Discovery
+## Host Discovery
 | Command | Description |
 |---|---|
 |`nmap 192.168.1.1 -sP`|Find Live Hosts|
@@ -27,7 +29,7 @@
 |`nmap 192.168.1.0/24 -sn`|	Host Discovery (Disable port scan)|
 |`nmap 192.168.1.1 -p-`|Scan Opened Ports|
 
-## NMAP (OS Detection)
+## OS Detection
 | Command | Description |
 |---|---|
 |`nmap -A -T3 cloudflare.com`| Scan Ports and Services using **Aggresive** mode|
@@ -35,13 +37,13 @@
 |`nmap -O cloudflare.com`| Get OS information |
 ||![image](src/os.png)|
 
-## NMAP (Service Detection)
+## Service Detection
 | Command | Description |
 |---|---|
 |`nmap -sV cloudflare.com`| Scan Services Only|
 ||![image](src/sv-nmap.webp)|
 
-## NMAP (CVE Detection)
+## CVE Detection
 | Command | Description |
 |---|---|
 |`nmap -Pn --script vuln cloudflare.com`| Full Vulnerability Scan |

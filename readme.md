@@ -16,5 +16,10 @@
 - Command and Control
 
 # External Reconnaissance
-- ![NMAP Command Line](nmap.md)
-    - 
+- [NMAP Command Line](nmap.md)
+    - [Domain IP Address Lookup](nmap.md#domain-ip-address-lookup)
+    - [Scan Techniques](nmap.md#scan-techniques)
+    - [Host Discovery](nmap.md#host-discovery)
+    - [OS Detection](nmap.md#os-detection)
+    - [Service Detection](nmap.md#service-detection)
+    - [CVE Detection](nmap.md#CVE-detection)
