@@ -1,7 +1,7 @@
 # Network Penetration Testing Guidelines
 
 ## Cyber Kill Chain
-![image](cyber-kill-chain.jfif)
+![image](src/cyber-kill-chain.jfif)
 - External Reconnaissance
 - Initial Access
 - Execution
